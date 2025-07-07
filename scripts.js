@@ -119,7 +119,6 @@ function changeCurrecy() {
         currencyImage.src = './assets/peso-argentino.png'
     }
 
-
     convertValues()
 }
 
