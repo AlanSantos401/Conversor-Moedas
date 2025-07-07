@@ -1,6 +1,6 @@
 # Conversor de Moeda
 
-<img src="./assets/conversor.png" alt="Conversor de Moeda" width="400"/>
+<img src="./assets/conversor-de-moedas.png" alt="Conversor de Moeda" width="400"/>
 
 Um conversor de moeda feito com HTML, CSS e JavaScript.<br>
 Com objetivo de ver como está as principais moedas do mundo e suas valorizações.
