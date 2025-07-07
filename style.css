@@ -124,7 +124,7 @@ main {
   }
 
 section{
-    width: 90%;
+    width: 95%;
     background: #f4f4f4;
     border:  1px solid #772Fd3;
     border-radius: 20px;
@@ -165,7 +165,7 @@ select, input {
 }
 
 label{
-    width: 90%;
+    width: 95%;
     margin-top: 20px;
     color: #777777;
     font-weight: 400;
@@ -173,7 +173,7 @@ label{
 }
 
 button{
-   width: 90%;
+   width: 95%;
    background: #772Fd3;
    border-radius: 5px;
    border: none; 
@@ -198,12 +198,14 @@ button:active{
     font-size: 14px;
 }
 
-.currency-value, .currency-value-to-convert{
-    color: #555555;
-    font-weight: 700;
-    font-size: 15px;
+.currency-value, .currency-value-to-convert {
+  color: #555555;
+  font-weight: 700;
+  font-size: clamp(14px, 5vw, 16px);
+  word-break: break-word;
+  max-width: 100%;
+  text-align: center;
 }
-
 
 
 }
